@@ -1,0 +1,1933 @@
+[
+  {
+    "name": "prompt matrix",
+    "is_alwayson": false,
+    "is_img2img": false,
+    "args": [
+      {
+        "label": "Put variable parts at start of prompt",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Use different seed for each picture",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Select prompt",
+        "value": "positive",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["positive", "negative"]
+      },
+      {
+        "label": "Select joining char",
+        "value": "comma",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["comma", "space"]
+      },
+      {
+        "label": "Grid margins (px)",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 500,
+        "step": 2,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "prompts from file or textbox",
+    "is_alwayson": false,
+    "is_img2img": false,
+    "args": [
+      {
+        "label": "Iterate seed every line",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Use same random seed for all lines",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Insert prompts at the",
+        "value": "start",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["start", "end"]
+      },
+      {
+        "label": "List of prompt inputs",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "x/y/z plot",
+    "is_alwayson": false,
+    "is_img2img": false,
+    "args": [
+      {
+        "label": "X type",
+        "value": "Seed",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Nothing",
+          "Seed",
+          "Var. seed",
+          "Var. strength",
+          "Steps",
+          "Hires steps",
+          "CFG Scale",
+          "Prompt S/R",
+          "Prompt order",
+          "Sampler",
+          "Hires sampler",
+          "Checkpoint name",
+          "Negative Guidance minimum sigma",
+          "Sigma Churn",
+          "Sigma min",
+          "Sigma max",
+          "Sigma noise",
+          "Schedule type",
+          "Schedule min sigma",
+          "Schedule max sigma",
+          "Schedule rho",
+          "Beta schedule alpha",
+          "Beta schedule beta",
+          "Eta",
+          "Clip skip",
+          "Denoising",
+          "Initial noise multiplier",
+          "Extra noise",
+          "Hires upscaler",
+          "VAE",
+          "Styles",
+          "UniPC Order",
+          "Face restore",
+          "Token merging ratio",
+          "Token merging ratio high-res",
+          "Always discard next-to-last sigma",
+          "SGM noise multiplier",
+          "Refiner checkpoint",
+          "Refiner switch at",
+          "RNG source",
+          "FP8 mode",
+          "Size"
+        ]
+      },
+      {
+        "label": "X values",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "X values",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": []
+      },
+      {
+        "label": "Y type",
+        "value": "Nothing",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Nothing",
+          "Seed",
+          "Var. seed",
+          "Var. strength",
+          "Steps",
+          "Hires steps",
+          "CFG Scale",
+          "Prompt S/R",
+          "Prompt order",
+          "Sampler",
+          "Hires sampler",
+          "Checkpoint name",
+          "Negative Guidance minimum sigma",
+          "Sigma Churn",
+          "Sigma min",
+          "Sigma max",
+          "Sigma noise",
+          "Schedule type",
+          "Schedule min sigma",
+          "Schedule max sigma",
+          "Schedule rho",
+          "Beta schedule alpha",
+          "Beta schedule beta",
+          "Eta",
+          "Clip skip",
+          "Denoising",
+          "Initial noise multiplier",
+          "Extra noise",
+          "Hires upscaler",
+          "VAE",
+          "Styles",
+          "UniPC Order",
+          "Face restore",
+          "Token merging ratio",
+          "Token merging ratio high-res",
+          "Always discard next-to-last sigma",
+          "SGM noise multiplier",
+          "Refiner checkpoint",
+          "Refiner switch at",
+          "RNG source",
+          "FP8 mode",
+          "Size"
+        ]
+      },
+      {
+        "label": "Y values",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Y values",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": []
+      },
+      {
+        "label": "Z type",
+        "value": "Nothing",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Nothing",
+          "Seed",
+          "Var. seed",
+          "Var. strength",
+          "Steps",
+          "Hires steps",
+          "CFG Scale",
+          "Prompt S/R",
+          "Prompt order",
+          "Sampler",
+          "Hires sampler",
+          "Checkpoint name",
+          "Negative Guidance minimum sigma",
+          "Sigma Churn",
+          "Sigma min",
+          "Sigma max",
+          "Sigma noise",
+          "Schedule type",
+          "Schedule min sigma",
+          "Schedule max sigma",
+          "Schedule rho",
+          "Beta schedule alpha",
+          "Beta schedule beta",
+          "Eta",
+          "Clip skip",
+          "Denoising",
+          "Initial noise multiplier",
+          "Extra noise",
+          "Hires upscaler",
+          "VAE",
+          "Styles",
+          "UniPC Order",
+          "Face restore",
+          "Token merging ratio",
+          "Token merging ratio high-res",
+          "Always discard next-to-last sigma",
+          "SGM noise multiplier",
+          "Refiner checkpoint",
+          "Refiner switch at",
+          "RNG source",
+          "FP8 mode",
+          "Size"
+        ]
+      },
+      {
+        "label": "Z values",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Z values",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": []
+      },
+      {
+        "label": "Draw legend",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Include Sub Images",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Include Sub Grids",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Keep -1 for seeds",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Vary seeds for X",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Vary seeds for Y",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Vary seeds for Z",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Grid margins (px)",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 500,
+        "step": 2,
+        "choices": null
+      },
+      {
+        "label": "Use text inputs instead of dropdowns",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "extra options",
+    "is_alwayson": true,
+    "is_img2img": false,
+    "args": []
+  },
+  {
+    "name": "reactor",
+    "is_alwayson": true,
+    "is_img2img": false,
+    "args": [
+      {
+        "label": "Single Source Image",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "ReActor",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Comma separated face number(s); Example: 0,2,1",
+        "value": "0",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Comma separated face number(s); Example: 1,0,2",
+        "value": "0",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Model",
+        "value": "inswapper_128.onnx",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["inswapper_128.onnx"]
+      },
+      {
+        "label": "Restore Face",
+        "value": "CodeFormer",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["None", "CodeFormer", "GFPGAN"]
+      },
+      {
+        "label": "Restore Face Visibility",
+        "value": 1,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "1. Restore Face -> 2. Upscale (-Uncheck- if you want vice versa)",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Upscaler",
+        "value": "None",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "None",
+          "Lanczos",
+          "Nearest",
+          "DAT x2",
+          "DAT x3",
+          "DAT x4",
+          "ESRGAN_4x",
+          "LDSR",
+          "R-ESRGAN 4x+",
+          "R-ESRGAN 4x+ Anime6B",
+          "ScuNET GAN",
+          "ScuNET PSNR",
+          "SwinIR 4x"
+        ]
+      },
+      {
+        "label": "Scale by",
+        "value": 1,
+        "minimum": 1,
+        "maximum": 8,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "Upscaler Visibility (if scale = 1)",
+        "value": 1,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "Swap in source image",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Swap in generated image",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Console Log Level",
+        "value": "Minimum",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["No log", "Minimum", "Default"]
+      },
+      {
+        "label": "Gender Detection (Source)",
+        "value": "No",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["No", "Female Only", "Male Only"]
+      },
+      {
+        "label": "Gender Detection (Target)",
+        "value": "No",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["No", "Female Only", "Male Only"]
+      },
+      {
+        "label": "Save Original",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "CodeFormer Weight (Fidelity)",
+        "value": 0.5,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "Source Image Hash Check",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Target Image Hash Check",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Execution Provider",
+        "value": "CUDA",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["CPU", "CUDA"]
+      },
+      {
+        "label": "Face Mask Correction",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Select Source",
+        "value": "Image(s)",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["Image(s)", "Face Model", "Folder"]
+      },
+      {
+        "label": "Choose Face Model",
+        "value": "None",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["None"]
+      },
+      {
+        "label": "Source Folder",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Multiple Source Images",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Random Image",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Force Upscale",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Threshold",
+        "value": 0.5,
+        "minimum": 0.1,
+        "maximum": 1.0,
+        "step": 0.01,
+        "choices": null
+      },
+      {
+        "label": "Max Faces",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 20,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "",
+        "value": "tab_single",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "refiner",
+    "is_alwayson": true,
+    "is_img2img": false,
+    "args": [
+      {
+        "label": "Refiner",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Checkpoint",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Deliberate_v6.safetensors [bcce73a08e]",
+          "v1-5-pruned-emaonly.safetensors [6ce0161689]"
+        ]
+      },
+      {
+        "label": "Switch at",
+        "value": 0.8,
+        "minimum": 0.01,
+        "maximum": 1.0,
+        "step": 0.01,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "sampler",
+    "is_alwayson": true,
+    "is_img2img": false,
+    "args": [
+      {
+        "label": "Sampling steps",
+        "value": 20,
+        "minimum": 1,
+        "maximum": 150,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Sampling method",
+        "value": "DPM++ 2M",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "DPM++ 2M",
+          "DPM++ SDE",
+          "DPM++ 2M SDE",
+          "DPM++ 2M SDE Heun",
+          "DPM++ 2S a",
+          "DPM++ 3M SDE",
+          "Euler a",
+          "Euler",
+          "LMS",
+          "Heun",
+          "DPM2",
+          "DPM2 a",
+          "DPM fast",
+          "DPM adaptive",
+          "Restart",
+          "DDIM",
+          "DDIM CFG++",
+          "PLMS",
+          "UniPC",
+          "LCM"
+        ]
+      },
+      {
+        "label": "Schedule type",
+        "value": "Automatic",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Automatic",
+          "Uniform",
+          "Karras",
+          "Exponential",
+          "Polyexponential",
+          "SGM Uniform",
+          "KL Optimal",
+          "Align Your Steps",
+          "Simple",
+          "Normal",
+          "DDIM",
+          "Beta"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "seed",
+    "is_alwayson": true,
+    "is_img2img": false,
+    "args": [
+      {
+        "label": "Seed",
+        "value": -1,
+        "minimum": null,
+        "maximum": null,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Extra",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Variation seed",
+        "value": -1,
+        "minimum": null,
+        "maximum": null,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Variation strength",
+        "value": 0.0,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.01,
+        "choices": null
+      },
+      {
+        "label": "Resize seed from width",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 2048,
+        "step": 8,
+        "choices": null
+      },
+      {
+        "label": "Resize seed from height",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 2048,
+        "step": 8,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "img2img alternative test",
+    "is_alwayson": false,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "",
+        "value": "* `CFG Scale` should be 2 or lower.",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Override `Sampling method` to Euler?(this method is built for it)",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Override `prompt` to the same value as `original prompt`?(and `negative prompt`)",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Original prompt",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Original negative prompt",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Override `Sampling Steps` to the same value as `Decode steps`?",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Decode steps",
+        "value": 50,
+        "minimum": 1,
+        "maximum": 150,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Override `Denoising strength` to 1?",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Decode CFG scale",
+        "value": 1.0,
+        "minimum": 0.0,
+        "maximum": 15.0,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "Randomness",
+        "value": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "step": 0.01,
+        "choices": null
+      },
+      {
+        "label": "Sigma adjustment for finding noise for image",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "loopback",
+    "is_alwayson": false,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Loops",
+        "value": 4,
+        "minimum": 1,
+        "maximum": 32,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Final denoising strength",
+        "value": 0.5,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.01,
+        "choices": null
+      },
+      {
+        "label": "Denoising strength curve",
+        "value": "Linear",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["Aggressive", "Linear", "Lazy"]
+      },
+      {
+        "label": "Append interrogated prompt at each iteration",
+        "value": "None",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["None", "CLIP", "DeepBooru"]
+      }
+    ]
+  },
+  {
+    "name": "outpainting mk2",
+    "is_alwayson": false,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "",
+        "value": "<p style=\"margin-bottom:0.75em\">Recommended settings: Sampling Steps: 80-100, Sampler: Euler a, Denoising strength: 0.8</p>",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Pixels to expand",
+        "value": 128,
+        "minimum": 8,
+        "maximum": 256,
+        "step": 8,
+        "choices": null
+      },
+      {
+        "label": "Mask blur",
+        "value": 8,
+        "minimum": 0,
+        "maximum": 64,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Outpainting direction",
+        "value": ["left", "right", "up", "down"],
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["left", "right", "up", "down"]
+      },
+      {
+        "label": "Fall-off exponent (lower=higher detail)",
+        "value": 1.0,
+        "minimum": 0.0,
+        "maximum": 4.0,
+        "step": 0.01,
+        "choices": null
+      },
+      {
+        "label": "Color variation",
+        "value": 0.05,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "step": 0.01,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "poor man's outpainting",
+    "is_alwayson": false,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Pixels to expand",
+        "value": 128,
+        "minimum": 8,
+        "maximum": 256,
+        "step": 8,
+        "choices": null
+      },
+      {
+        "label": "Mask blur",
+        "value": 4,
+        "minimum": 0,
+        "maximum": 64,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Masked content",
+        "value": "fill",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["fill", "original", "latent noise", "latent nothing"]
+      },
+      {
+        "label": "Outpainting direction",
+        "value": ["left", "right", "up", "down"],
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["left", "right", "up", "down"]
+      }
+    ]
+  },
+  {
+    "name": "prompt matrix",
+    "is_alwayson": false,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Put variable parts at start of prompt",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Use different seed for each picture",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Select prompt",
+        "value": "positive",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["positive", "negative"]
+      },
+      {
+        "label": "Select joining char",
+        "value": "comma",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["comma", "space"]
+      },
+      {
+        "label": "Grid margins (px)",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 500,
+        "step": 2,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "prompts from file or textbox",
+    "is_alwayson": false,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Iterate seed every line",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Use same random seed for all lines",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Insert prompts at the",
+        "value": "start",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["start", "end"]
+      },
+      {
+        "label": "List of prompt inputs",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "sd upscale",
+    "is_alwayson": false,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "",
+        "value": "<p style=\"margin-bottom:0.75em\">Will upscale the image by the selected scale factor; use width and height sliders to set tile size</p>",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Tile overlap",
+        "value": 64,
+        "minimum": 0,
+        "maximum": 256,
+        "step": 16,
+        "choices": null
+      },
+      {
+        "label": "Upscaler",
+        "value": "None",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "None",
+          "Lanczos",
+          "Nearest",
+          "DAT x2",
+          "DAT x3",
+          "DAT x4",
+          "ESRGAN_4x",
+          "LDSR",
+          "R-ESRGAN 4x+",
+          "R-ESRGAN 4x+ Anime6B",
+          "ScuNET GAN",
+          "ScuNET PSNR",
+          "SwinIR 4x"
+        ]
+      },
+      {
+        "label": "Scale Factor",
+        "value": 2.0,
+        "minimum": 1.0,
+        "maximum": 4.0,
+        "step": 0.05,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "x/y/z plot",
+    "is_alwayson": false,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "X type",
+        "value": "Seed",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Nothing",
+          "Seed",
+          "Var. seed",
+          "Var. strength",
+          "Steps",
+          "CFG Scale",
+          "Image CFG Scale",
+          "Prompt S/R",
+          "Prompt order",
+          "Sampler",
+          "Checkpoint name",
+          "Negative Guidance minimum sigma",
+          "Sigma Churn",
+          "Sigma min",
+          "Sigma max",
+          "Sigma noise",
+          "Schedule type",
+          "Schedule min sigma",
+          "Schedule max sigma",
+          "Schedule rho",
+          "Beta schedule alpha",
+          "Beta schedule beta",
+          "Eta",
+          "Clip skip",
+          "Denoising",
+          "Initial noise multiplier",
+          "Extra noise",
+          "Cond. Image Mask Weight",
+          "VAE",
+          "Styles",
+          "UniPC Order",
+          "Face restore",
+          "Token merging ratio",
+          "Token merging ratio high-res",
+          "Always discard next-to-last sigma",
+          "SGM noise multiplier",
+          "Refiner checkpoint",
+          "Refiner switch at",
+          "RNG source",
+          "FP8 mode",
+          "Size"
+        ]
+      },
+      {
+        "label": "X values",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "X values",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": []
+      },
+      {
+        "label": "Y type",
+        "value": "Nothing",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Nothing",
+          "Seed",
+          "Var. seed",
+          "Var. strength",
+          "Steps",
+          "CFG Scale",
+          "Image CFG Scale",
+          "Prompt S/R",
+          "Prompt order",
+          "Sampler",
+          "Checkpoint name",
+          "Negative Guidance minimum sigma",
+          "Sigma Churn",
+          "Sigma min",
+          "Sigma max",
+          "Sigma noise",
+          "Schedule type",
+          "Schedule min sigma",
+          "Schedule max sigma",
+          "Schedule rho",
+          "Beta schedule alpha",
+          "Beta schedule beta",
+          "Eta",
+          "Clip skip",
+          "Denoising",
+          "Initial noise multiplier",
+          "Extra noise",
+          "Cond. Image Mask Weight",
+          "VAE",
+          "Styles",
+          "UniPC Order",
+          "Face restore",
+          "Token merging ratio",
+          "Token merging ratio high-res",
+          "Always discard next-to-last sigma",
+          "SGM noise multiplier",
+          "Refiner checkpoint",
+          "Refiner switch at",
+          "RNG source",
+          "FP8 mode",
+          "Size"
+        ]
+      },
+      {
+        "label": "Y values",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Y values",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": []
+      },
+      {
+        "label": "Z type",
+        "value": "Nothing",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Nothing",
+          "Seed",
+          "Var. seed",
+          "Var. strength",
+          "Steps",
+          "CFG Scale",
+          "Image CFG Scale",
+          "Prompt S/R",
+          "Prompt order",
+          "Sampler",
+          "Checkpoint name",
+          "Negative Guidance minimum sigma",
+          "Sigma Churn",
+          "Sigma min",
+          "Sigma max",
+          "Sigma noise",
+          "Schedule type",
+          "Schedule min sigma",
+          "Schedule max sigma",
+          "Schedule rho",
+          "Beta schedule alpha",
+          "Beta schedule beta",
+          "Eta",
+          "Clip skip",
+          "Denoising",
+          "Initial noise multiplier",
+          "Extra noise",
+          "Cond. Image Mask Weight",
+          "VAE",
+          "Styles",
+          "UniPC Order",
+          "Face restore",
+          "Token merging ratio",
+          "Token merging ratio high-res",
+          "Always discard next-to-last sigma",
+          "SGM noise multiplier",
+          "Refiner checkpoint",
+          "Refiner switch at",
+          "RNG source",
+          "FP8 mode",
+          "Size"
+        ]
+      },
+      {
+        "label": "Z values",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Z values",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": []
+      },
+      {
+        "label": "Draw legend",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Include Sub Images",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Include Sub Grids",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Keep -1 for seeds",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Vary seeds for X",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Vary seeds for Y",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Vary seeds for Z",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Grid margins (px)",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 500,
+        "step": 2,
+        "choices": null
+      },
+      {
+        "label": "Use text inputs instead of dropdowns",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "extra options",
+    "is_alwayson": true,
+    "is_img2img": true,
+    "args": []
+  },
+  {
+    "name": "soft inpainting",
+    "is_alwayson": true,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Soft inpainting",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Schedule bias",
+        "value": 1,
+        "minimum": 0,
+        "maximum": 8,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "Preservation strength",
+        "value": 0.5,
+        "minimum": 0,
+        "maximum": 8,
+        "step": 0.05,
+        "choices": null
+      },
+      {
+        "label": "Transition contrast boost",
+        "value": 4,
+        "minimum": 1,
+        "maximum": 32,
+        "step": 0.5,
+        "choices": null
+      },
+      {
+        "label": "Mask influence",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.05,
+        "choices": null
+      },
+      {
+        "label": "Difference threshold",
+        "value": 0.5,
+        "minimum": 0,
+        "maximum": 8,
+        "step": 0.25,
+        "choices": null
+      },
+      {
+        "label": "Difference contrast",
+        "value": 2,
+        "minimum": 0,
+        "maximum": 8,
+        "step": 0.25,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "reactor",
+    "is_alwayson": true,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Single Source Image",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "ReActor",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Comma separated face number(s); Example: 0,2,1",
+        "value": "0",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Comma separated face number(s); Example: 1,0,2",
+        "value": "0",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Model",
+        "value": "inswapper_128.onnx",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["inswapper_128.onnx"]
+      },
+      {
+        "label": "Restore Face",
+        "value": "CodeFormer",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["None", "CodeFormer", "GFPGAN"]
+      },
+      {
+        "label": "Restore Face Visibility",
+        "value": 1,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "1. Restore Face -> 2. Upscale (-Uncheck- if you want vice versa)",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Upscaler",
+        "value": "None",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "None",
+          "Lanczos",
+          "Nearest",
+          "DAT x2",
+          "DAT x3",
+          "DAT x4",
+          "ESRGAN_4x",
+          "LDSR",
+          "R-ESRGAN 4x+",
+          "R-ESRGAN 4x+ Anime6B",
+          "ScuNET GAN",
+          "ScuNET PSNR",
+          "SwinIR 4x"
+        ]
+      },
+      {
+        "label": "Scale by",
+        "value": 1,
+        "minimum": 1,
+        "maximum": 8,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "Upscaler Visibility (if scale = 1)",
+        "value": 1,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "Swap in source image",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Swap in generated image",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Console Log Level",
+        "value": "Minimum",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["No log", "Minimum", "Default"]
+      },
+      {
+        "label": "Gender Detection (Source)",
+        "value": "No",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["No", "Female Only", "Male Only"]
+      },
+      {
+        "label": "Gender Detection (Target)",
+        "value": "No",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["No", "Female Only", "Male Only"]
+      },
+      {
+        "label": "Save Original (Swap in generated only)",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "CodeFormer Weight (Fidelity)",
+        "value": 0.5,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.1,
+        "choices": null
+      },
+      {
+        "label": "Source Image Hash Check",
+        "value": true,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Target Image Hash Check",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Execution Provider",
+        "value": "CUDA",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["CPU", "CUDA"]
+      },
+      {
+        "label": "Face Mask Correction",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Select Source",
+        "value": "Image(s)",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["Image(s)", "Face Model", "Folder"]
+      },
+      {
+        "label": "Choose Face Model",
+        "value": "None",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": ["None"]
+      },
+      {
+        "label": "Source Folder",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Multiple Source Images",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Random Image",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Force Upscale",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Threshold",
+        "value": 0.5,
+        "minimum": 0.1,
+        "maximum": 1.0,
+        "step": 0.01,
+        "choices": null
+      },
+      {
+        "label": "Max Faces",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 20,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "",
+        "value": "tab_single",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "refiner",
+    "is_alwayson": true,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Refiner",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Checkpoint",
+        "value": "",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Deliberate_v6.safetensors [bcce73a08e]",
+          "v1-5-pruned-emaonly.safetensors [6ce0161689]"
+        ]
+      },
+      {
+        "label": "Switch at",
+        "value": 0.8,
+        "minimum": 0.01,
+        "maximum": 1.0,
+        "step": 0.01,
+        "choices": null
+      }
+    ]
+  },
+  {
+    "name": "sampler",
+    "is_alwayson": true,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Sampling steps",
+        "value": 20,
+        "minimum": 1,
+        "maximum": 150,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Sampling method",
+        "value": "DPM++ 2M",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "DPM++ 2M",
+          "DPM++ SDE",
+          "DPM++ 2M SDE",
+          "DPM++ 2M SDE Heun",
+          "DPM++ 2S a",
+          "DPM++ 3M SDE",
+          "Euler a",
+          "Euler",
+          "LMS",
+          "Heun",
+          "DPM2",
+          "DPM2 a",
+          "DPM fast",
+          "DPM adaptive",
+          "Restart",
+          "DDIM",
+          "DDIM CFG++",
+          "PLMS",
+          "UniPC",
+          "LCM"
+        ]
+      },
+      {
+        "label": "Schedule type",
+        "value": "Automatic",
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": [
+          "Automatic",
+          "Uniform",
+          "Karras",
+          "Exponential",
+          "Polyexponential",
+          "SGM Uniform",
+          "KL Optimal",
+          "Align Your Steps",
+          "Simple",
+          "Normal",
+          "DDIM",
+          "Beta"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "seed",
+    "is_alwayson": true,
+    "is_img2img": true,
+    "args": [
+      {
+        "label": "Seed",
+        "value": -1,
+        "minimum": null,
+        "maximum": null,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Extra",
+        "value": false,
+        "minimum": null,
+        "maximum": null,
+        "step": null,
+        "choices": null
+      },
+      {
+        "label": "Variation seed",
+        "value": -1,
+        "minimum": null,
+        "maximum": null,
+        "step": 1,
+        "choices": null
+      },
+      {
+        "label": "Variation strength",
+        "value": 0.0,
+        "minimum": 0,
+        "maximum": 1,
+        "step": 0.01,
+        "choices": null
+      },
+      {
+        "label": "Resize seed from width",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 2048,
+        "step": 8,
+        "choices": null
+      },
+      {
+        "label": "Resize seed from height",
+        "value": 0,
+        "minimum": 0,
+        "maximum": 2048,
+        "step": 8,
+        "choices": null
+      }
+    ]
+  }
+]
