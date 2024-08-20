@@ -16,7 +16,7 @@ lock = threading.Lock()
 
 def option_img2img(url):
     option_payload = {
-    "sd_model_checkpoint": "Deliberate_v6.safetensors" # "cyberrealistic_v50.safetensors" # you can use it also, choose the best
+        "sd_model_checkpoint": "Deliberate_v6.safetensors" # "cyberrealistic_v50.safetensors" # you can use it also, choose the best
     }
 
     requests.post(url=f'{url}/sdapi/v1/options', json=option_payload)
@@ -25,8 +25,8 @@ def main():
     src_imgs = os.listdir('inputs/source-images')
     tar_imgs = os.listdir('inputs/target-images')
 
-    # for url in server_urls:
-    #     option_img2img(url)
+    for url in server_urls:
+        option_img2img(url)
     
     with ThreadPoolExecutor(max_workers=url_num) as executor:
         futures = []
